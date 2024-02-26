@@ -8,7 +8,7 @@ function losujLink() {
 
     var linkElement = document.createElement("a");
     linkElement.href = linki[losowyIndex];
-    linkElement.textContent = "Naciśnij tutaj aby przejść do kwestionariusza";
+    linkElement.textContent = "Naciśnij tutaj, aby przejść do kwestionariusza";
     linkElement.target = "_blank";
   
     var container = document.getElementById("wylosowanyLink");
